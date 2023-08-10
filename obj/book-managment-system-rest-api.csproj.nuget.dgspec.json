@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\My Workspace\\My Applications\\Csharp\\CrudApi\\book-managment-system-csharp\\BookManagmentSystem-C#.csproj": {}
+    "C:\\My Workspace\\My Applications\\Csharp\\CrudApi\\book-managment-system-csharp\\book-managment-system-rest-api.csproj": {}
   },
   "projects": {
-    "C:\\My Workspace\\My Applications\\Csharp\\CrudApi\\book-managment-system-csharp\\BookManagmentSystem-C#.csproj": {
+    "C:\\My Workspace\\My Applications\\Csharp\\CrudApi\\book-managment-system-csharp\\book-managment-system-rest-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\My Workspace\\My Applications\\Csharp\\CrudApi\\book-managment-system-csharp\\BookManagmentSystem-C#.csproj",
-        "projectName": "BookManagmentSystem-C#",
-        "projectPath": "C:\\My Workspace\\My Applications\\Csharp\\CrudApi\\book-managment-system-csharp\\BookManagmentSystem-C#.csproj",
+        "projectUniqueName": "C:\\My Workspace\\My Applications\\Csharp\\CrudApi\\book-managment-system-csharp\\book-managment-system-rest-api.csproj",
+        "projectName": "book-managment-system-rest-api",
+        "projectPath": "C:\\My Workspace\\My Applications\\Csharp\\CrudApi\\book-managment-system-csharp\\book-managment-system-rest-api.csproj",
         "packagesPath": "C:\\Users\\ALI\\.nuget\\packages\\",
         "outputPath": "C:\\My Workspace\\My Applications\\Csharp\\CrudApi\\book-managment-system-csharp\\obj\\",
         "projectStyle": "PackageReference",
@@ -46,6 +46,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
             "Npgsql": {
               "target": "Package",
               "version": "[7.0.4, )"
